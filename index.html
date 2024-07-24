@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacqueline Chin</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Russo+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/af9465482e.js" crossorigin="anonymous"></script>
 </head>
 
@@ -26,9 +28,9 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Hi! I'm </p>
                 <h1><span>Jacqueline Chin</span></h1>
-                <p>IT & Multimedia Fresh Graduate</p>
+                <p>Software Engineer @ Silverlake Axis</p>
+                <p>Hobbyist Game Developer</p>
             </div>
         </div>
     </div>
@@ -41,21 +43,19 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
-                    <p class="justify-paragraphs">
-                        My name is Jacqueline Chin, a fresh graduate from
-                        Universiti Malaysia Sabah with a Degree in IT &
-                        Multimedia Technology.</p>
                     <h3 class="subtitle-2">My Developer Journey</h3>
                     <p class="justify-paragraphs">
-                        During my studies, I developed an interest towards
-                        programming and I've kept software development as
-                        a hobby. I even developed a fully functional
-                        Android App for my Final Year Project. After
-                        graduating, I've completed training and received
-                        certification for Android App development.
-                        Although I've kept software development as a
-                        hobby, I believe I'll get more satisfaction from
-                        making it a career instead.
+                        I'm Jacqueline Chin, a Software Engineer at Silverlake Axis with a focus on Banking Solutions & Fintech.
+                        I enjoy coding and is always looking for opportunities to expand my programming skills.
+                    </p>
+                    <br>
+                    <p class="justify-paragraphs">
+                        I have worked on different development projects, including a 
+                        Gamified Labuan Tourism Android App using Android Studio & Firebase, 
+                        a Python program that automates Excel Sheet data mapping process, 
+                        and a mobile game using Godot Engine. 
+                        I hope to add more projects to the list and gain valuable 
+                        experiences to further my software development career.
                     </p>
                 </div>
             </div>
@@ -66,9 +66,9 @@
             <i class="fa-solid fa-briefcase"></i>
             <h2>Work Experience</h2>
             <ul>
-                <li><span>2022 - Current</span><br>Freelance Software Developer</li>
-                <li><span>2019 - 2023</span><br>Psych2Go Inc. - 2D Animator</li>
-                <li><span>2018 - 2019</span><br>Usahawan Borneo Group - Purchasing Clerk</li>
+                <li><span>Feb 2024 - Present</span><br>Silverlake Axis - Software Engineer</li>
+                <li><span>Mar 2022 - Feb 2024</span><br>Freelance Software Developer</li>
+                <li><span>Jan 2018 - May 2019</span><br>Usahawan Borneo Group - Purchasing Clerk</li>
             </ul>
         </div>
         <div>
@@ -76,7 +76,7 @@
             <h2>Education</h2>
             <ul>
                 <li><span>2019 - 2023 | Universiti Malaysia Sabah</span><br>Bachelor of Science (Multimedia
-                    Technology)<br>CGPA of 3.68<br>Dean's Award for 5 consecutive semesters.
+                    Technology)<br>CGPA of 3.68 (First Class)<br>Dean's Award for 5 consecutive semesters.
                 </li>
             </ul>
         </div>
@@ -86,9 +86,9 @@
             <ul>
                 <li><span>Certifications</span><br>Android Certified Associate Developer (ACAD) by iTrain Asia
                     Pte Ltd</li>
-                <li><span>Skills</span><br>Mobile App Development, Web Programming, Full Stack Development,
-                    Animation, Graphic Design, Motion Graphic, Video Editing</li>
-                <li><span>Programming Languages</span><br>C++, C#, Java Script, SQL, HTML, CSS, PHP, Java, XML,
+                <li><span>Skills</span><br>Andriod Development, Full Stack Development, Software Troubleshooting, 
+                Software Maintenance & Support, Project-based Experience, Collaboration, Communication.</li>
+                <li><span>Programming Languages</span><br>C++, C#, Java Script, HTML, CSS, Python, Java, XML,
                     Kotlin, GDScript, Dart</li>
             </ul>
         </div>
@@ -98,38 +98,45 @@
         <div class="container">
             <h1 class="subtitle">My Portfolio</h1>
             <div class="tab-titles">
-                <p class="tab-links active-link" onclick="opentab('mobileapps')">Android Apps</p>
+                <p class="tab-links active-link" onclick="opentab('app1')">Gamified Labuan Tourism App</p>
+                <p class="tab-links" onclick="opentab('app2')">Mobile Game App</p>
                 <p class="tab-links" onclick="opentab('graphicdesign')">Graphic Design</p>
             </div>
-            <div class="tab-contents active-tab" id="mobileapps">
+            <div class="tab-contents active-tab" id="app1">
+                <p class="justify-paragraphs">
+                    An app designed to promote tourism in Labuan using gamification features. Users embark on
+                    adventures around the island, completeting quests and challenges that highlights the
+                    island's unique attractions and histroical sites, and at the same time, promoting the
+                    local businesses.
+                </p>
                 <div class="app-list">
                     <div class="app">
                         <img src="images/app-1.png">
-                        <div class="layer">
-                            <h3>Gamified Labuan Tourism App</h3>
-                            <p>An app designed to promote tourism in Labuan using gamification features. Users embark on
-                                adventures around the island, completeting quests and challenges that highlights the
-                                island's unique attractions and histroical sites, and at the same time, promoting the
-                                local businesses.</p>
-                            <a href="https://drive.google.com/drive/folders/1LIHnUcLpdfNSnR4gI-16jsNdPW5Ixm1H"
-                                target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="tab-contents" id="app2">
+                <p class="justify-paragraphs">
+                    My first mobile game inspired by simple yet addictive gameplay of idle games.
+                    Prison Moon Manager features a local Vtuber studio and its talents, where the user acts
+                    as the executive manager who makes strategic decisions, upgrade structures, and unlock
+                    new features to expand the studio.
+                </p>
+                <div class="app-list">
                     <div class="app">
                         <img src="images/app-2.png">
-                        <div class="layer">
-                            <h3>Mobile Game App</h3>
-                            <p>My first prototype mobile game inspired by simple yet addictive gameplay experiences.
-                                Prison Moon Manager features a small Vtuber studio and its talents, where the user acts
-                                as the executive manager who makes strategic decisions, upgrade structures, and unlock
-                                new features to expand the prison.</p>
-                            <a href="https://drive.google.com/drive/folders/1q6vPiRpei_ZOm0uybEZ7M2dpbDejek0H"
+                        <!-- <div class="layer">
+                            <a href="https://drive.google.com/drive/folders/1LIHnUcLpdfNSnR4gI-16jsNdPW5Ixm1H"
                                 target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <div class="tab-contents" id="graphicdesign">
+                <p class="justify-paragraphs">
+                    As a multimedia graduate, I have also worked on creative projects 
+                    and have no problems designing the layout, user-interface, and image assets of my software projects.
+                </p>
                 <div class="design-list">
                     <div class="design">
                         <img src="images/design-1.jpg">
@@ -151,8 +158,8 @@
                     </div>
                 </div>
             </div>
-            <a href="https://drive.google.com/drive/folders/1wFLAiv-8MGzOo0p97mIdSyCEATm_aezl" target="_blank"
-                class="btn">See more</a>
+            <a href="https://github.com/jacquelinechin" target="_blank"
+                class="btn">More Projects</a>
         </div>
     </div>
 
@@ -165,12 +172,12 @@
                     <p><i class="fa-solid fa-paper-plane"></i>jacquelinechin98@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>016-586 3681</p>
                     <div class="social-icons">
-                        <a href="https://drive.google.com/drive/folders/1wFLAiv-8MGzOo0p97mIdSyCEATm_aezl"
-                            target="_blank"><i class="fa-regular fa-folder-open"></i></a>
-                        <a href="https://www.linkedin.com/in/jacqueline-chin-hung-chih/" target="_blank"><i
-                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/jacquelinechin"
+                            target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jacqueline-chin-hung-chih/"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    <a href="images/jacqueline-chin-resume.pdf" download class="btn btn2">Download Resume</a>
                 </div>
                 <div class="contact-right">
 

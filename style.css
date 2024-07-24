@@ -1,16 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     box-sizing: border-box;
 }
+
+.comfortaa-regular {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.russo-one-regular {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background: #ffeaf2;
+    background: #ffffff;
     color: #000000;
 }
 
@@ -68,22 +81,28 @@ nav ul li a:hover::after {
 
 .header-text {
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
 }
 
 .header-text h1 {
     font-size: 60px;
+    margin-bottom: 10px;
 }
 
 .header-text h1 span {
     color: #9F00FF;
+    font-family: "Russo One", sans-serif;
+}
+
+.header-text p {
+    margin-bottom: 10px;
 }
 
 /*-----------------about----------------*/
 #about {
     padding: 80px 0 0;
-    color: #ab5395;
+    /* color: #ab5395; */
 }
 
 .row {
@@ -91,24 +110,32 @@ nav ul li a:hover::after {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+
+    margin: auto;
+    width: 100% ;
+    max-width: 70rem;
+    /* border: red solid 2px; */
 }
 
 .about-col-1 {
-    flex-basis: 20%;
+    flex-basis: 25%;
+    /* border:red solid 2px; */
 }
 
 .about-col-1 img {
     width: 100%;
     border-radius: 25px;
+
 }
 
 .about-col-2 {
-    flex-basis: 75%;
+    flex-basis: 65%;
+    /* border:red solid 2px; */
 }
 
 .subtitle {
+    font-family: "Russo One", sans-serif;
     font-size: 60px;
-    font-weight: 600;
     color: #9F00FF;
 }
 
@@ -116,6 +143,7 @@ nav ul li a:hover::after {
     font-size: 20px;
     padding: 18px 0 5px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .justify-paragraphs {
@@ -150,9 +178,9 @@ nav ul li a:hover::after {
     margin-bottom: 15px;
 }
 
-.about-grid div:hover {
+/* .about-grid div:hover {
     background: #ab5395;
-}
+} */
 
 .about-grid div ul li {
     list-style: none;
