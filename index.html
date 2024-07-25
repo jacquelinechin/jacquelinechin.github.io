@@ -15,22 +15,25 @@
 
 <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logo.png" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <h1><span>Jacqueline Chin</span></h1>
-                <p>Software Engineer @ Silverlake Axis</p>
-                <p>Hobbyist Game Developer</p>
+        <div class="header-layer">
+            <div class="container">
+                <nav>
+                    <!-- <img src="images/logo.png" class="logo"> -->
+                    <h2></h2>
+                    <ul id="sidemenu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1><span>Jacqueline Chin</span></h1>
+                    <p>Software Engineer @ Silverlake Axis</p>
+                    <p>Hobbyist Game Developer</p>
+                </div>
             </div>
         </div>
     </div>
@@ -61,36 +64,39 @@
             </div>
         </div>
     </div>
-    <div class="about-grid">
-        <div>
-            <i class="fa-solid fa-briefcase"></i>
-            <h2>Work Experience</h2>
-            <ul>
-                <li><span>Feb 2024 - Present</span><br>Silverlake Axis - Software Engineer</li>
-                <li><span>Mar 2022 - Feb 2024</span><br>Freelance Software Developer</li>
-                <li><span>Jan 2018 - May 2019</span><br>Usahawan Borneo Group - Purchasing Clerk</li>
-            </ul>
-        </div>
-        <div>
-            <i class="fa-solid fa-graduation-cap"></i>
-            <h2>Education</h2>
-            <ul>
-                <li><span>2019 - 2023 | Universiti Malaysia Sabah</span><br>Bachelor of Science (Multimedia
-                    Technology)<br>CGPA of 3.68 (First Class)<br>Dean's Award for 5 consecutive semesters.
-                </li>
-            </ul>
-        </div>
-        <div>
-            <i class="fa-solid fa-award"></i>
-            <h2>Certifications & Skills</h2>
-            <ul>
-                <li><span>Certifications</span><br>Android Certified Associate Developer (ACAD) by iTrain Asia
-                    Pte Ltd</li>
-                <li><span>Skills</span><br>Andriod Development, Full Stack Development, Software Troubleshooting, 
-                Software Maintenance & Support, Project-based Experience, Collaboration, Communication.</li>
-                <li><span>Programming Languages</span><br>C++, C#, Java Script, HTML, CSS, Python, Java, XML,
-                    Kotlin, GDScript, Dart</li>
-            </ul>
+    <!--EXPERIENCE-->
+    <div id="experience">
+        <div class="about-grid">
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Work Experience</h2>
+                <ul>
+                    <li><span>Feb 2024 - Present</span><br>Silverlake Axis - Software Engineer</li>
+                    <li><span>Mar 2022 - Feb 2024</span><br>Freelance Software Developer</li>
+                    <li><span>Jan 2018 - May 2019</span><br>Usahawan Borneo Group - Purchasing Clerk</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>Education</h2>
+                <ul>
+                    <li><span>2019 - 2023 | Universiti Malaysia Sabah</span><br>Bachelor of Science (Multimedia
+                        Technology)<br>CGPA of 3.68 (First Class)<br>Dean's Award for 5 consecutive semesters.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-award"></i>
+                <h2>Certifications & Skills</h2>
+                <ul>
+                    <li><span>Certifications</span><br>Android Certified Associate Developer (ACAD) by iTrain Asia
+                        Pte Ltd</li>
+                    <li><span>Skills</span><br>Android Development, Full Stack Development, Software Troubleshooting, 
+                    Software Maintenance & Support, Project-based Experience, Collaboration, Communication.</li>
+                    <li><span>Programming Languages</span><br>C++, C#, Java Script, HTML, CSS, Python, Java, XML,
+                        Kotlin, GDScript, Dart</li>
+                </ul>
+            </div>
         </div>
     </div>
     <!--PORTFOLIO-->
@@ -105,7 +111,7 @@
             <div class="tab-contents active-tab" id="app1">
                 <p class="justify-paragraphs">
                     An app designed to promote tourism in Labuan using gamification features. Users embark on
-                    adventures around the island, completeting quests and challenges that highlights the
+                    adventures around the island, completing quests and challenges that highlights the
                     island's unique attractions and histroical sites, and at the same time, promoting the
                     local businesses.
                 </p>
@@ -134,8 +140,8 @@
             </div>
             <div class="tab-contents" id="graphicdesign">
                 <p class="justify-paragraphs">
-                    As a multimedia graduate, I have also worked on creative projects 
-                    and have no problems designing the layout, user-interface, and image assets of my software projects.
+                    As a multimedia graduate, I have also worked on creative projects such as 
+                    designing the layout, user-interface, and image assets of my software projects.
                 </p>
                 <div class="design-list">
                     <div class="design">
